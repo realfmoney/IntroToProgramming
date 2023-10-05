@@ -1,0 +1,47 @@
+#   Felipe Marquez's Madlibs
+#
+#   bigGame.py
+#
+#   Input: Asks user for input for corresponding
+#          variables for the game.
+#
+#   Processing: Takes the user input and 
+#               Displays the end result.
+#
+#   Output: Displays text with included variables 
+#           for the end result of the game.
+#
+class bigGame:
+    def main():
+
+        #   Prompts the user to enter information for The Big Game!!!
+        PNOUN1 = input("A plural noun: ")
+        FNAME = input("a person's First Name: ")
+        NOUN1 = input("A noun: ") 
+        LNAME = input("A person's last name: ")
+        PNOUN2 = input("A second plural noun: ")
+        PLACE1 = input("A place: ")
+        PNOUN3 = input("A third plural noun: ")
+        PLACE2 = input("Another place: ") 
+        PNOUN4 = input("A fourth plural noun: ")
+        NOUN2 = input("A second noun: ")
+        ADJECTIVE1 = input("An adjective: ") 
+        ADJECTIVE2 = input("A second adjective: ")
+        VERB = input("A verb: ")
+        ADJECTIVE3 = input("A third adjective: ")
+
+        #   Displays the information gather into The Big Game Mad Libs
+        TheBigGame = (" The Big Game!!! " 
+                      
+                      "Hello There, Sports " + PNOUN1 + 
+                      " This is, " + FNAME + " talking to you from the press " + NOUN1 + 
+                      " in " + LNAME + " Stadium, where 57,000 cheering " + PNOUN2 + 
+                      " Have gathered to watch the " + PLACE1 + " " + PNOUN3 + 
+                      " take on the " + PLACE2 + " " + PNOUN4 +  
+                      " Even though the " + NOUN2 + " is shining it's a/an " + ADJECTIVE1 + 
+                      " cold day with the temperature in the " + ADJECTIVE2 + " 20's. " 
+                      " We'll be back for the opening " + VERB + "-off after a few words "
+                      " from our " + ADJECTIVE3 + " Sponsor. ")
+
+        print(TheBigGame)
+    main()
